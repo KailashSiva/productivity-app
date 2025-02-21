@@ -24,6 +24,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.react-datepicker {
+  z-index: 9999 !important;
+  position: relative !important;
+  left: 2.7rem;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -33,6 +39,17 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.date-picker-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.date-picker-calendar {
+  z-index: 9999 !important;
 }
 
 @media (prefers-color-scheme: dark) {
