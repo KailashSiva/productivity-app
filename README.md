@@ -1,5 +1,15 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+WIP
+
+Currently an over-engineered terrible-looking todo list.
+
+Changes to make
+- improve UI / UX
+- Implement full CRUD (missing U and D)
+- drag and drop pomodoro timer
+- more features, including habit trackers, daily + weekly habits, streaks
+
 ## Getting Started
 
 First, run the development server:
